@@ -34,7 +34,7 @@ function sendUserInfo(event) {
 }
 
 function checkInputStart() {
-    const localInfo = JSON.parse(localStorage.getItem("feedback-form-state")) ?? {};
+    const localInfo = JSON.parse(localStorage.getItem.trim("feedback-form-state")) ?? {};
 
     feedbackForm.elements.email.value = localInfo.email || '';
     feedbackForm.elements.message.value = localInfo.message || '';
