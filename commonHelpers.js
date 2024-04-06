@@ -7,5 +7,5 @@ import"./assets/modulepreload-polyfill-3cfb730f.js";/* empty css                
                 width='360'
             />
         </a>
-    </li>`).join("");e.insertAdjacentHTML("beforeend",n);new i(".gallery a",{captions:!0,captionsData:"alt",captionDelay:250});
+    </li>`).join("");e.insertAdjacentHTML("beforeend",n);new i(".gallery a",{captionsData:"alt",captionDelay:250});
 //# sourceMappingURL=commonHelpers.js.map
